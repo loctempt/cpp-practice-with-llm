@@ -82,10 +82,10 @@ int main() {
 
     // 输出结果 (保留1位小数)
     cout << fixed << setprecision(1);
-    cout << "专家权重:结构:" << weights[0] * 100 << "% "
-         << "文采:" << weights[1] * 100 << "% "
-         << "逻辑:" << weights[2] * 100 << "%" << endl;
-    cout << "最终评分:" << final_score << endl;
+    cout << "专家权重: 结构: " << weights[0] * 100 << "% "
+         << "文采: " << weights[1] * 100 << "% "
+         << "逻辑: " << weights[2] * 100 << "%" << endl;
+    cout << "最终评分: " << final_score << endl;
 
     return 0;
 }
