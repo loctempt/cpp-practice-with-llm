@@ -1,0 +1,8 @@
+Similarity: 2.6150
+Similarity: 1.4950
+Similarity: 1.1720
+Similarity: 0.7920
+Similarity: 1.6260
+Similarity: 0.3245
+Similarity: 1.4750
+Similarity: 2.7225

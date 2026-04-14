@@ -18,7 +18,7 @@ double dot_product(double a[], double b[], int n) {
 
 int main() {
 #ifdef DEBUG
-  freopen("vector_mul.input", "r", stdin);
+  freopen("task1_vector_mul.input", "r", stdin);
 #endif
   double user[5];
   double threshold;

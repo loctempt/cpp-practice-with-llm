@@ -22,7 +22,7 @@ void matrix_vector_mult(double matrix[][FEAT_DIM], double vec[],
 
 int main() {
 #ifdef DEBUG
-  freopen("LLM_practice/task2_matrix_mul.input", "r", stdin);
+  freopen("task2_matrix_mul.input", "r", stdin);
 #endif
   double article[FEAT_DIM];
   double result[STYLE_NUM] = {0};
