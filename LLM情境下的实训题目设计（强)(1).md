@@ -245,6 +245,7 @@ int main() {
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <windows.h>
 using namespace std;
 
 const int STYLE_NUM = 4;
@@ -260,6 +261,10 @@ void softmax_stable(double scores[], double probs[], int n) {
 }
 
 int main() {
+    // 设置控制台为UTF-8编码
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);    
+    
     double scores[STYLE_NUM];
     double probs[STYLE_NUM];
     const char* style_names[STYLE_NUM] = {"记叙文", "议论文", "散文", "诗歌"};
